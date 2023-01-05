@@ -1,0 +1,85 @@
+html
+table,tr,tg,td,caption
+{
+    border: 1px solid #111;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding: 0.5rem;
+}
+selector on the basis of heading 
+h1
+{
+    color: blue;
+}
+body
+{
+    background-color: blueviolet;
+    color: aqua;
+     /*fonts*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    font-variant: normal;
+      
+    /*line heights*/
+    line-height: 1.6em;
+    
+}
+/* To target a specific section*/
+#About
+{
+    background-color: #111;
+    color: azure;
+    /* optimum value of pixels for website is 960px but it hasone side effect when you adjust the size of website , it will not response , so to avoid this ambiguity we are using percentages*/
+    width: 80%;
+    /*even amount of spacing from left and right side*/
+    margin: auto;
+}
+#practice
+{
+   background-color: bisque;  
+   color: black;
+  /* margin: 5px 10px 5 px 10 px;*/
+  /*same method as written above in one line*/
+  margin-top:5px ;
+  margin-bottom:10px ;
+  margin-left:5px ;
+  margin-right: 10px;
+/*padding is basically spacing inside*/
+  padding: 20px;
+  /*border: size, color , type*/
+  border: 5px red solid;
+  border-bottom-width:10px ;
+  border-bottom-style: dotted;
+
+  margin: 20px;
+  
+}
+/* My practice paragpraph heading editing*/
+#practice h2
+{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: 800;
+   font-style: italic;
+   text-transform: capitalize;
+   text-align: center;
+   text-decoration: underline;
+   letter-spacing: 0.2em;
+
+}
+
+#practice2 h2
+{
+    color: chartreuse;
+    text-decoration:underline;
+    font-style: italic;
+    text-align: center;
+}
+
+#practice2
+{
+    background-color: bisque;
+    border: 10px violet das;
+    margin: 10px;
+    width: 80%;
+}

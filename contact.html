@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Muneeb Ur Rehman">
+        <meta name="Description" content="This is my first project, i dont know if i will be able to complete this or not but i will try my best to cover maximum portion of it">
+        <title>PROJECT</title>
+        <!--To form the logo of the website-->
+        <link rel="icon" href="plogo.jpg" type="image/x-icon">
+        <link rel="stylesheet" href="main.css" type="text/css">
+    </head>
+    <body>
+        <section>
+            <h1> Contact Us!!</h1>
+            <nav>
+                <ul>
+                    <li><a href="hours.html">Store Hours</a></li>
+                    <li> <a href="home.html">Home</a></li>
+                    <!--<li><a href="#About"> About Us</a></li>-->
+                </ul>
+            </nav>
+            <figure>
+                <img src="menu.jpg" alt="Menu of restraunt" title="Bake With Meebi">
+            </figure>
+        </section>
+
+        <section>
+            <h2>Our Contact Form</h2>
+            <!-- get method is  use to take information from the user-->
+            <form action="https://httpbin.org/get" method="get">
+
+                <fieldset>
+                    <legend>Send us a message</legend>
+                   <p> <label for="Name">Name:</label>
+                    <input type="text" name="Name" id="Name" placeholder="Type Your Name" autocomplete="on" required>
+                </p>
+
+                <p> <label for="Email">Email:</label>
+                    <input type="text" name="Email" id="Email" placeholder="someone@gmail.com">
+                </p>
+
+                <p> <label for="Your Message">Your Message:</label>
+                    <!--textarea for large block of messages-->
+                    <textarea name="message" id="Your Message" cols="30" rows="10" placeholder="Type your text"></textarea>
+                </p>
+                </fieldset>
+            </form>
+        </section>
+    </body>
+</html>
